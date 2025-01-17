@@ -6,6 +6,7 @@ Key features include:
 valid_values function: Ensures a value adheres to Sudoku rules for a given row, column, and grid.
 Dynamic domain reduction: The update_cells function dynamically updates the possible values for related cells, pruning invalid paths.
 Priority queue: Cells with the fewest options are prioritized for solving, minimizing unnecessary recursion.
+
 Recursive solver (csp_solve): Processes the grid starting with the most constrained cells, returning a solution if one exists or a grid of -1 values if none is possible.
 This optimized algorithm can solve most Sudoku puzzles in under 0.1 seconds.
 
