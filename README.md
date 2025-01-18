@@ -1,4 +1,4 @@
-# SudokuSolver
+# Sudoku Solver
 This project models the Sudoku puzzle as a Constraint Satisfaction Problem (CSP). Empty cells are treated as variables, with their possible values constrained by the rules of Sudoku. The solver implements a Minimum Remaining Value (MRV) heuristic and forward checking to ensure efficient backtracking and faster solutions.
 
 Key features include:
